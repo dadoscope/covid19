@@ -3,7 +3,7 @@ library(tidyverse)
 library(jsonlite)
 
 basedir<- "/home/ubuntu/raspador/covid19/R/"
-terms <- c("covid","covid-19","corona","coronavirus")
+terms <- c("covid","covid-19","corona","coronavirus","Chloroquine","Azithromycin")
 all_tweets <- data.frame()
 sufix <- system("date +'%Y%m%d%H%M'", intern=TRUE)
 for(t in terms){
